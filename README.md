@@ -12,6 +12,12 @@
 - Chức năng kê đơn thuốc trực tuyến
 - Chức năng xem chi tiết đơn thuốc
 - Chức năng quản lí tài khoản cho Admin
+  
+## Thành Viên
+| STT | Họ và tên | MSSV | Mức độ đóng góp |
+|-------|-------|-------|-------|
+| 1 | Lê Chí Bình | xxxx | 99% |
+
 
 ## Kiểm thử phần mềm : 
 ### Test Case đăng nhập 
@@ -60,6 +66,7 @@
           <li>Password : 123456</li>
       </td>
           Đăng nhập được vào hệ thống </td>
+    <td></td>
     <td>Pass</td>
   </tr>
   <tr>
@@ -664,6 +671,7 @@ Báo lỗi</td>
   </tr>
 </table>
 </div>
+
 ### Testcase chức năng đơn thuốc
 |ID|Description|Step|TestData|Expect Result|Result|
 |--|-----------|----|--------|-------------|------|
@@ -694,7 +702,7 @@ Truy cập web bằng một tài khoản admin
    <td>
 </td>
     <td>
-          Không có lỗi.Xóa thành công.</td>
+          Không có lỗi, Xóa thành công.</td>
     <td>Pass</td>
   </tr>
 </table>
